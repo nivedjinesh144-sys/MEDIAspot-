@@ -1,6 +1,6 @@
 // --- Demo product data ---
 const PRODUCTS = [
-  {id:1,title:'trophy1',price:129,category:'trophies ',img:'https://merutrophy.in/cdn/shop/files/gold-metal-trophy-133_d6f16cdd-74f2-4b42-872d-589a8d3d674d.png?v=1753966530',rating:4.6},
+  {id:1,title:'trophy1',price:129,category:'trophies ',img:'https://drive.google.com/file/d/1h6mjTD3mJ3xbM3u8YSGl-57SGnIEmyY-/view?usp=sharing',rating:4.6},
   {id:2,title:'trophy2',price:449,category:'trophies ',img:'https://promotionalwears.com/image/cache/catalog/data/Trophies/custom-trophy/achievement-cup-trophies-500x500.webp',rating:4.2},
   {id:3,title:'momento1',price:619,category:'momento',img:'https://cpimg.tistatic.com/10224040/b/4/Metal-Wooden-Shield-Trophies-3-PCS-Set..jpg',rating:4.4},
   {id:4,title:'trophy4',price:579,category:'trophies ',img:'https://joytreeglobal.com/wp-content/uploads/Customized-7-Star-Corporate-Award-Trophy-copy.webp_1.webp',rating:4.5},
@@ -165,6 +165,7 @@ $('checkoutForm').addEventListener('submit', e=>{
 // Initialize
 renderProducts(); 
 updateCartUI();
+
 
 
 
